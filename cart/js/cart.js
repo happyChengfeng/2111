@@ -270,6 +270,10 @@ class Cart {
   $$ (ele) {
     return document.querySelectorAll(ele)
   }
+  say () {
+    console.log('有没有成就感....');
+
+  }
 }
 
 new Cart;
